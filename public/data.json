@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "OLYMPUS OM-D E-M1 Mark III",
+    "img": "https://m.media-amazon.com/images/I/81svbcgk6LL._AC_SX569_.jpg",
+    "price": "1499.",
+    "category": "Camera"
+  },
+  {
+    "id": 2,
+    "name": "Canon EOS Rebel T7",
+    "img": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX569_.jpg",
+    "price": "479",
+    "category": "Camera"
+  },
+  {
+    "id": 3,
+    "name": "Canon EOS R5",
+    "img": "https://m.media-amazon.com/images/I/81depb5FkhL._AC_SX679_.jpg",
+    "price": "4900",
+    "category": "Camera"
+  },
+  {
+    "id": 4,
+    "name": "KODAK PIXPRO Astro ",
+    "img": "https://m.media-amazon.com/images/I/81bkjVJQeqS._AC_SX569_.jpg",
+    "price": "174",
+    "category": "Camera"
+  },
+  {
+    "id": 5,
+    "name": "Minolta Pro Shot",
+    "img": "https://m.media-amazon.com/images/I/71TVcl5XRXL._AC_SX569_.jpg",
+    "price": "399",
+    "category": "Camera"
+  },
+  {
+    "id": 6,
+    "name": "Canon PowerShot SX420",
+    "img": "https://m.media-amazon.com/images/I/41a0leiV5DL._AC_.jpg",
+    "price": "338",
+    "category": "Camera"
+  },
+  {
+    "id": 7,
+    "name": "Panasonic LUMIX FZ80",
+    "img": "https://m.media-amazon.com/images/I/917LEZ+it3L._AC_SX569_.jpg",
+    "price": "397",
+    "category": "Camera"
+  },
+  {
+    "id": 8,
+    "name": "Canon EOS RP",
+    "img": "https://m.media-amazon.com/images/I/811+58GXGOL._AC_SX679_.jpg",
+    "price": "12500",
+    "category": "Camera"
+  },
+  {
+    "id": 9,
+    "name": "Panasonic LUMIX G85",
+    "img": "https://m.media-amazon.com/images/I/81TUnaSLzoL._AC_SX569_.jpg",
+    "price": "697",
+    "category": "Camera"
+  },
+  {
+    "id": 10,
+    "name": "Canon EOS R",
+    "img": "https://m.media-amazon.com/images/I/71B33yx+J2L._AC_SX679_.jpg",
+    "price": "1998",
+    "category": "Camera"
+  },
+  {
+    "id": 11,
+    "name": "Sony RX100 VII",
+    "img": "https://m.media-amazon.com/images/I/718DfOPtpqL._AC_SX569_.jpg",
+    "price": "1298",
+    "category": "Camera"
+  },
+  {
+    "id": 12,
+    "name": "OLYMPUS Tough TG-6",
+    "img": "https://m.media-amazon.com/images/I/61J18Xn9bfS._AC_SX569_.jpg",
+    "price": "449",
+    "category": "Camera"
+  }
+]
