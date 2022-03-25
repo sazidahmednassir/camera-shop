@@ -6,12 +6,12 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <div class="container">
+      <div class="container-fluid">
   <div class="row ">
     <div class="col-md-10 mt-2">
     <Card></Card>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 bg-primary">
       Second in DOM, unordered
     </div>
    
