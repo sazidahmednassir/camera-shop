@@ -1,0 +1,15 @@
+.cart-width {
+  max-width: 18rem;
+}
+
+card-img-top {
+  width: 54%;
+}
+
+.box {
+  width: 54%;
+  height: auto;
+  background: #ffb6c1;
+  border: 2px solid #f08080;
+  border-radius: 20px;
+}
