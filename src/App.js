@@ -3,8 +3,11 @@ import './App.css';
 import Card from './Component/Card/Card';
 import Cart from './Component/Cart/Cart';
 import Navbar from './Component/Navbar/Navbar';
+import Questions from './Component/Questions/Questions';
 
 function App() {
+
+  //Product
   const [cameras, setCamera] = useState([]);
   const [cart, setCart] = useState([]);
 
@@ -14,16 +17,19 @@ function App() {
     .then(data=>setCamera(data))
   },[])
 
+  //Cart
   const handleAddToCart = (camera) => {
     const newCart = [...cart, camera];
     setCart(newCart);
     // console.log(newCart)
   };
+
+  //random
 const [random, setRandom]=useState([])
 const randomCamera=(cartCamera)=>{
   const randomCamera=cartCamera[Math.floor(Math.random()* cartCamera.length )]
   setRandom(randomCamera)
-  console.log(randomCamera)
+  // console.log(randomCamera)
 }
 
 // const [zerocart, setZero]=useState([])
@@ -56,6 +62,7 @@ const deleteAllCart=()=>{
    
   </div>
 </div>
+<Questions></Questions>
     </div>
   );
 }

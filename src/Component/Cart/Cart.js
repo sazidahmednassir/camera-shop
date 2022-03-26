@@ -23,11 +23,11 @@ cart.map((ca)=>(
 ))}
   <div>
    
-    <h5>Picked Camera: {random.name? random.name: "Click Button Pick Camera For me"} </h5>
+    <h5>Picked Camera: {random.name} </h5>
     
     <img src={random.img ? random.img: " "} className="box" alt="" ></img>
   </div>
-  <div class="d-flex flex-column ">
+  <div class="d-flex flex-column p-2 ">
   <button onClick={() => props.randomCamera(props.cart)}  class="btn btn-danger  mt-2" > Pick Camera For me
      
      </button>
