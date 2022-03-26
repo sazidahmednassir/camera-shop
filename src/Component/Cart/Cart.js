@@ -2,9 +2,16 @@ import React from 'react';
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { cart } = props;
+  const { cart , random} = props;
+  // console.log(zerocart.length)
+
+
     return (
+    
         <div>
+          <div>
+            <h1>Selected Camera: {cart.length}</h1>
+          </div>
 <div class="card text-white bg-primary mb-3" className="cart-width">
  
 {
@@ -15,14 +22,17 @@ cart.map((ca)=>(
     </div>
 ))}
   <div>
-    <h5>Picked Camera: </h5>
+   
+    <h5>Picked Camera: {random.name? random.name: "Click Button Pick Camera For me"} </h5>
+    
+    <img src={random.img ? random.img: " "} className="box" alt="" ></img>
   </div>
   <div class="d-flex flex-column ">
-  <button  class="btn btn-danger  mt-2" > Pick Camera For me
+  <button onClick={() => props.randomCamera(props.cart)}  class="btn btn-danger  mt-2" > Pick Camera For me
      
      </button>
-     <button  class="btn btn-danger mt-2" > Delete
-      
+     <button onClick={() => props.deleteAllCart()} class="btn btn-danger mt-2" > Delete
+     deleteAllCart
      </button>
   </div>
  
