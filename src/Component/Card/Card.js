@@ -13,7 +13,7 @@ const Card = (props) => {
   <h5 class="card-title text-dark font-weight-bold">{name}</h5>
     <p class="card-text text-danger  font-weight-bold">${price}</p>
     <p class="card-text text-danger  font-weight-bold">{category}</p>
-    <button  class="btn btn-danger " > Add to Cart
+    <button onClick={() => props.handleAddToCart(props.camera)} class="btn btn-danger " > Add to Cart
     <FontAwesomeIcon icon={faShoppingCart} className="product-btn"></FontAwesomeIcon>
      
     </button>
