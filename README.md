@@ -1,10 +1,8 @@
-# Getting Started with Create React app
+# Camera Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Website Link
 
-## Available Scripts
-
-In the project directory, you can run:
+Live Website Link:
 
 ### `npm start`
 
