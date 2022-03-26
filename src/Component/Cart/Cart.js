@@ -11,8 +11,11 @@ const Cart = () => {
     <h5 class="card-title">Name: Canon</h5>
     
   </div>
+  <div>
+    <h5>Picked Camera: </h5>
+  </div>
   <div class="d-flex flex-column ">
-  <button  class="btn btn-danger  mt-2" > change
+  <button  class="btn btn-danger  mt-2" > Pick Camera For me
      
      </button>
      <button  class="btn btn-danger mt-2" > Delete
